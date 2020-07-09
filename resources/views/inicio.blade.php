@@ -44,7 +44,7 @@
 
       <div class="jumbotron">
    
-   Hola como estas 
+   Hola como estas? bien
 			<h1>Centros de Atención y</h1>
 			<h1>Cuidado Infantil (CACI)</h1>
    
