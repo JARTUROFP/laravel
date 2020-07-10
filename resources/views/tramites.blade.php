@@ -17,15 +17,17 @@
     </ol>
 
     <div class="carousel-inner">
-      <div class="item active">
-        <img src="http://caci.ochentayocho.net/public/frontend/imagenes/banner1.jpg" alt="Los Angeles" style="width:100%;">
-      </div>
-      <div class="item">
-        <img src="http://caci.ochentayocho.net/public/frontend/imagenes/banner2.jpg" alt="Chicago" style="width:100%;">
-      </div>    
-      <div class="item">
-        <img src="http://caci.ochentayocho.net/public/frontend/imagenes/banner3.jpg" alt="New york" style="width:100%;">
-      </div>
+   <div class="item active">
+     <img src="{{asset('img/1.png')}}" alt="Los Angeles" style="width:100%;">
+   </div>
+      
+   <div class="item">
+      <img src="{{asset('img/2.png')}}"  alt="Chicago" style="width:100%;">
+   </div>
+
+   <div class="item">
+      <img src="{{asset('img/3.png')}}"  alt="New york" style="width:100%;">
+   </div>
     </div>
 
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">

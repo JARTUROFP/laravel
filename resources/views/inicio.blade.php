@@ -11,25 +11,17 @@
     </ol>
 
     <div class="carousel-inner">
-
-
- 
-<div class="item active">
- <img src="{{asset('img/1.png')}}" alt="Los Angeles" style="width:100%;">
- </div>
-
-
-      <div class="item">
-      <img src="{{asset('img/2.png')}}"  alt="Chicago" style="width:100%;">
-      </div>
-
-
-      <div class="item">
-         <img src="{{asset('img/3.png')}}"  alt="New york" style="width:100%;">
-      </div>
-
-
+   <div class="item active">
+     <img src="{{asset('img/1.png')}}" alt="Los Angeles" style="width:100%;">
+   </div>
       
+   <div class="item">
+      <img src="{{asset('img/2.png')}}"  alt="Chicago" style="width:100%;">
+   </div>
+
+   <div class="item">
+      <img src="{{asset('img/3.png')}}"  alt="New york" style="width:100%;">
+   </div>
     </div>
 
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -43,8 +35,6 @@
 	</div>
 
       <div class="jumbotron">
-   
-   Hola como estas? bien
 			<h1>Centros de Atención y</h1>
 			<h1>Cuidado Infantil (CACI)</h1>
    
