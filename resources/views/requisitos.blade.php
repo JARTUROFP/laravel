@@ -3,10 +3,6 @@
 @section('mycontent')
 
 
-
-
-
-
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
     <ol class="carousel-indicators">
@@ -38,9 +34,6 @@
       <span class="sr-only">Next</span>
     </a>
 	</div><br><br>
-
-
-
 
     <div style="text-align: center; background-color: #FFFFFF; margin-top: -90px;" class="jumbotron">
 		 <h2>Centro de atención y cuidado infantil</h2>

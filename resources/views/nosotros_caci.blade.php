@@ -13,7 +13,7 @@
     </ol>
 
     <div class="carousel-inner">
-        <div class="item active">
+         <div class="item active">
      <img src="{{asset('img/1.png')}}" alt="Los Angeles" style="width:100%;">
    </div>
       

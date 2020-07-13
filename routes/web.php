@@ -39,9 +39,15 @@ Route::get('/civil_proteccion', function () {
     return view('civil_proteccion');
 });
 
-Route::get('/contactenos', function () {
-    return view('contactenos');
+Route::get('/login', function () {
+    return view('login');
 });
+
+
+Route::get('/regístrate', function () {
+    return view('regístrate');
+});
+
 
 
 
