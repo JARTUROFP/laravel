@@ -100,7 +100,7 @@ button:hover {
     <p><input placeholder="mm" oninput="this.className = ''" name="mm"></p>
     <p><input placeholder="yyyy" oninput="this.className = ''" name="yyyy"></p>
   </div>
- <div class="tab">Login Info:
+ <div class="tab">Inicio de sesión:
     <p><input placeholder="Nombre de usuario" oninput="this.className = ''" name="uname"></p>
     <p><input placeholder="Contraseña" oninput="this.className = ''" name="pword" type="password"></p>
   </div>
