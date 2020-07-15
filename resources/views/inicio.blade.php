@@ -10,15 +10,16 @@
       <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner">
-   <div class="item active">
-     <img src="{{asset('img/1.png')}}" alt="Los Angeles" style="width:100%;">
+       
+    <div class="item active">
+     <img src="{{asset('img/11.png')}}" alt="Los Angeles" style="width:100%;">
    </div>
+      
    <div class="item">
-      <img src="{{asset('img/2.png')}}"  alt="Chicago" style="width:100%;">
+      <img src="{{asset('img/banner.png')}}"  alt="Chicago" style="width:100%;">
    </div>
-   <div class="item">
-      <img src="{{asset('img/3.png')}}"  alt="New york" style="width:100%;">
-   </div>
+
+
 </div>
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left"></span>

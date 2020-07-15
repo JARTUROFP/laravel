@@ -23,8 +23,8 @@ Route::get('/nosotros', function () {
     return view('nosotros');
 });
 
-Route::get('/nosotros_caci', function () {
-    return view('nosotros_caci');
+Route::get('/centros', function () {
+    return view('centros');
 });
 
 Route::get('/requisitos', function () {
@@ -43,9 +43,8 @@ Route::get('/login', function () {
     return view('login');
 });
 
-
-Route::get('/regístrate', function () {
-    return view('regístrate');
+Route::get('/inscripcion', function () {
+    return view('inscripcion');
 });
 
 

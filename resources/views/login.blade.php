@@ -16,7 +16,7 @@
        <input type="password" placeholder="Contraseña" name="psw" required>
         <br><br>
       <button type="submit">Entrar</button>
-    <span class="psw">¿Aún no tienes cuenta? <a style="color: #00b140;" href="regístrate">Regístrate</a></span>
+    <span class="psw">¿Aún no tienes cuenta? <a style="color: #00b140;" href="regístro">Regístro</a></span>
     </div>
   </form>
 <script>

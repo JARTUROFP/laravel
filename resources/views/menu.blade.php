@@ -19,24 +19,60 @@
   <link href="{{ asset('css/footer.css')}}" rel="stylesheet"/>
 	
 </head>
+<style>
+div.a {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 3px solid red;
+}
+
+div.b {
+  position: absolute;
+  left: auto;
+  width: 100px;
+  height: 120px;
+  border: 3px solid blue;
+} 
+
+div.c {
+  position: absolute;
+  left: 150px;
+  width: 200px;
+  height: 120px;
+  border: 3px solid green;
+} 
+</style>
+
+
+
+
+
 <body>
 	
 <div class="container">
-<h2 style="padding-left:0px">
-  <img src="{{asset('img/CDMX.png')}}"  alt="Chicago" style="width:70%;"></h2>
+
+
+ <img src="{{asset('img/semovi.png')}}"  alt="Chicago" style="width:30%;  left:  10px;">
+
+ <img src="{{asset('img/logo CACI.png')}}"  alt="Chicago" style="width:30%; margin-right: 80px;">
+
+
+
 <!-- Static navbar -->
 	
 <div class="topnav" id="myTopnav">
   <a style="background-color: #00B140; margin-left: 35px; margin-bottom: 23px;" class="active"></a>
 
   <a href="inicio"> Inicio </a>		
-  <a href="nosotros"> Nosotros </a>
-  <a href="nosotros_caci"> Nosotros CACI </a>
-  <a href="requisitos"> Requisitos </a>
-  <a href="tramites"> Trámites </a>
-  <a href="civil_proteccion"> Proteccion Civil </a>		
-  <a href="login"> Iniciar Sesión </a>
- <!-- <a href="regístrate"> Regístrate </a>-->
+  <!--<a href="nosotros"> Nosotros </a>-->
+  <a href="centros"> Centros </a>
+  <!--<a href="requisitos"> Requisitos </a>-->
+  <!--<a href="tramites"> Trámites </a>-->
+ 
+  <a href="civil_proteccion"> Proteccion Civil </a>
+   <a href="inscripcion"> Inscripción </a>
+   <a href="login"> Iniciar Sesión </a>   
  
   <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>

@@ -34,7 +34,7 @@ input.invalid {
 .tab {
   display: none;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
+  font-size: 30px;
   color: #000000;
 
 }
@@ -84,29 +84,84 @@ button:hover {
 
    <img src="{{asset('img/Logo_CDMX.png')}}"  alt="Chicago" style="width:30%;">
       <img src="{{asset('img/Logo_Dependencia_n.png')}}"  alt="Chicago" style="width:15%;">
+
+       <h1>Centros de Atención, Cuidado Infantil de la Secretaria de Administración y Finanzas del Gobierno de la Ciudad de México </h1>
   <br><br>
   <!-- One "tab" for each step in the form: -->
-  <div class="tab">Nombre:
-    
-    <p><input placeholder="Nombre de Usuario" oninput="this.className = ''" name="nombre" ></p>
+  <div class="tab">Periodo de Inscripción 
+    <br>
+    <p><input placeholder="Nombre de la Menor" oninput="this.className = ''" name="nombre" ></p>
     <p><input placeholder="Apellidos" oninput="this.className = ''" name="apellidos"></p>
   </div>
-  <div class="tab">Datos de contacto:
+  <div class="tab">Fecha de Ingreso
+    <br>
+ <label for="birthday">Fecha de Nacimiento:</label>
+  <input type="date" id="birthday" name="birthday">
+  </div>
+<br>
+
+
+  <div class="tab">Nombre de las Padres o Tutor:
+        <p><input placeholder="Nombre de las padres" oninput="this.className = ''" name="nombre" ></p>
+    <p><input placeholder="Apellidos" oninput="this.className = ''" name="apellidos"></p>
+    <p><input placeholder="Domicilio" oninput="this.className = ''" name="domicilio"></p>
+
+
+<h1>Delegaciones:</h1>
+  <div class="col-75">
+     <select id="country" name="country">
+     
+          <option value="australia">Iztapalapa</option>
+          <option value="canada">Tlalpan</option>
+          <option value="usa">Álvaro Obregón</option>
+          <option value="australia">Iztacalco</option>
+          <option value="canada">Coyoacán</option>
+          <option value="usa">Xochimilco</option>
+          <option value="australia">Tláhuac</option>
+          <option value="canada">Benito Juárez</option>
+          <option value="usa">Venustiano Carranza</option>
+          <option value="australia">Gustavo A. Madero</option>
+          <option value="canada">Milpa Alta</option>
+          <option value="usa">Azcapotzalco</option>
+          <option value="australia">Miguel Hidalgo</option>
+          <option value="canada">Cuauhtémoc</option>
+          <option value="usa">ÁCuajimalpa de Morelos</option>
+        </select>
+
+  </div>
+
+
+
+
+
     <p><input placeholder="E-mail" oninput="this.className = ''" name="email"></p>
     <p><input placeholder="Teléfono" oninput="this.className = ''" name="telefono"></p>
+
+     <label for="appt"> <p>Horario</p></label>
+  <input type="time" id="appt" name="appt">
+
+     
+    
+  <br><br>
+
+
   </div>
+
+
+
   <div class="tab">Nacimiento:
     <p><input placeholder="dd" oninput="this.className = ''" name="dd"></p>
     <p><input placeholder="mm" oninput="this.className = ''" name="mm"></p>
     <p><input placeholder="yyyy" oninput="this.className = ''" name="yyyy"></p>
   </div>
- <div class="tab">Login Info:
-    <p><input placeholder="Nombre de usuario" oninput="this.className = ''" name="uname"></p>
-    <p><input placeholder="Contraseña" oninput="this.className = ''" name="pword" type="password"></p>
-  </div>
+
   <div style="overflow:auto;">
     <div style="float:right;">
+ 
+<h4>Reinscripción</h4>
+
       <button type="button" id="prevBtn" onclick="nextPrev(-1)">Regresa</button>
+   
       <button type="button" id="nextBtn" onclick="nextPrev(1)">Acepta</button>
     </div>
   </div>
