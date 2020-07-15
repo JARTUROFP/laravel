@@ -154,7 +154,14 @@ button:hover {
     <p><input placeholder="mm" oninput="this.className = ''" name="mm"></p>
     <p><input placeholder="yyyy" oninput="this.className = ''" name="yyyy"></p>
   </div>
+<<<<<<< HEAD:resources/views/inscripcion.blade.php
 
+=======
+ <div class="tab">Inicio de sesión:
+    <p><input placeholder="Nombre de usuario" oninput="this.className = ''" name="uname"></p>
+    <p><input placeholder="Contraseña" oninput="this.className = ''" name="pword" type="password"></p>
+  </div>
+>>>>>>> a2b0927c22581927af0ea8584ff67349462827e7:resources/views/regístrate.blade.php
   <div style="overflow:auto;">
     <div style="float:right;">
  
